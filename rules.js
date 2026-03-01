@@ -59,10 +59,23 @@ const URL_TRIMMER_RULES = {
     },
     {
       name: 'Taobao',
-      domains: ['taobao.com', '1688.com'],
+      domains: ['taobao.com'],
       params: [
         '^spm$', '^pvid$', '^scm$', '^ali_refid$', '^ali_trackid$',
         '^utparam$', '^ns$', '^abbucket$', '^acm$',
+      ],
+    },
+    {
+      name: '1688',
+      domains: ['1688.com'],
+      params: [
+        '^spm$', '^pvid$', '^scm$', '^ali_refid$', '^ali_trackid$',
+        '^utparam$', '^ns$', '^abbucket$', '^acm$',
+        '^offerId$', '^skuId$', '^hotSaleSkuId$', '^scene$',
+        '^from$', '^trace_log$', '^tracelog$', '^uuid$',
+        '^sessionid$', '^pageId$', '^abBizDataType$',
+        '^pcLoginAbJumpBeforeTimeStr$', '^cosite$',
+        '^_p_isad$', '^clickid$',
       ],
     },
     {
