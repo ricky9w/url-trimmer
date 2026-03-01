@@ -58,11 +58,14 @@ const URL_TRIMMER_RULES = {
       ],
     },
     {
-      name: 'Taobao',
-      domains: ['taobao.com'],
+      name: 'Taobao / Tmall',
+      domains: ['taobao.com', 'tmall.com'],
       params: [
         '^spm$', '^pvid$', '^scm$', '^ali_refid$', '^ali_trackid$',
         '^utparam$', '^ns$', '^abbucket$', '^acm$',
+        '^user_number_id$', '^activity_id$',
+        '^mi_id$', '^xxc$', '^priceTId$', '^mm_sceneid$',
+        '^from$', '^item_type$',
       ],
     },
     {
@@ -76,15 +79,7 @@ const URL_TRIMMER_RULES = {
         '^sessionid$', '^pageId$', '^abBizDataType$',
         '^pcLoginAbJumpBeforeTimeStr$', '^cosite$',
         '^_p_isad$', '^clickid$',
-      ],
-    },
-    {
-      name: 'Tmall',
-      domains: ['tmall.com'],
-      params: [
-        '^spm$', '^pvid$', '^scm$', '^ali_refid$', '^ali_trackid$',
-        '^utparam$', '^ns$', '^abbucket$', '^acm$',
-        '^user_number_id$', '^activity_id$',
+        '^sortType$', '^forcePC$',
       ],
     },
     {
