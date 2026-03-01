@@ -26,6 +26,16 @@ const URL_TRIMMER_RULES = {
       params: ['^feature$', '^kw$', '^si$', '^pp$'],
     },
     {
+      name: 'Twitter',
+      domains: ['twitter.com', 'x.com'],
+      params: ['^s$', '^t$', '^ref_src$', '^ref_url$'],
+    },
+    {
+      name: 'GitHub',
+      domains: ['github.com'],
+      params: ['^email_source$', '^email_token$'],
+    },
+    {
       name: 'Bilibili',
       domains: ['bilibili.com'],
       params: [
@@ -35,7 +45,74 @@ const URL_TRIMMER_RULES = {
         '^callback$', '^from_source$', '^from$', '^seid$',
         '^from_spmid$', '^referfrom$', '^bilifeed_channel$',
         '^unique_k$',
+        '^msource$', '^refer_from$', '^plat_id$', '^bbid$',
+        '^ts$', '^visit_id$', '^broadcast_type$', '^is_room_feed$',
       ],
+    },
+    {
+      name: 'Xiaohongshu',
+      domains: ['xiaohongshu.com', 'xhslink.com'],
+      params: [
+        '^xhsshare$', '^appuid$', '^apptime$',
+        '^share_id$', '^xsec_source$', '^xsec_token$',
+      ],
+    },
+    {
+      name: 'Taobao',
+      domains: ['taobao.com', '1688.com'],
+      params: [
+        '^spm$', '^pvid$', '^scm$', '^ali_refid$', '^ali_trackid$',
+        '^utparam$', '^ns$', '^abbucket$', '^acm$',
+      ],
+    },
+    {
+      name: 'Tmall',
+      domains: ['tmall.com'],
+      params: [
+        '^spm$', '^pvid$', '^scm$', '^ali_refid$', '^ali_trackid$',
+        '^utparam$', '^ns$', '^abbucket$', '^acm$',
+        '^user_number_id$', '^activity_id$',
+      ],
+    },
+    {
+      name: 'TikTok',
+      domains: ['tiktok.com'],
+      params: [
+        '^_d$', '^_r$', '^_t$', '^checksum$', '^is_copy_url$',
+        '^is_from_webapp$', '^sec_uid$', '^sec_user_id$',
+        '^share_app_id$', '^share_link_id$',
+      ],
+    },
+    {
+      name: 'Reddit',
+      domains: ['reddit.com'],
+      params: [
+        '^\\$deep_link$', '^\\$android_deeplink$', '^\\$ios_deeplink$',
+        '^utm_name$', '^share_id$', '^ref$', '^ref_source$',
+        '^correlation_id$', '^rdt$',
+      ],
+    },
+    {
+      name: 'Instagram',
+      domains: ['instagram.com'],
+      params: ['^igshid$', '^igsh$'],
+    },
+    {
+      name: 'LinkedIn',
+      domains: ['linkedin.com'],
+      params: [
+        '^trackingId$', '^refId$', '^trk$', '^midToken$',
+      ],
+    },
+    {
+      name: 'Weibo',
+      domains: ['weibo.com', 'weibo.cn'],
+      params: ['^sudaref$', '^display$'],
+    },
+    {
+      name: 'Sohu',
+      domains: ['sohu.com'],
+      params: ['^spm$', '^pvid$'],
     },
   ],
 };
