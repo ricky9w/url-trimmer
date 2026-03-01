@@ -122,5 +122,15 @@ const URL_TRIMMER_RULES = {
       domains: ['sohu.com'],
       params: ['^spm$', '^pvid$'],
     },
+    {
+      name: 'WeChat MP',
+      domains: ['mp.weixin.qq.com'],
+      params: [
+        '^scene$', '^from_masonry$',
+        '^sharer_shareinfo$', '^sharer_shareinfo_first$',
+        '^poc_token$', '^chksm$', '^version$', '^ascene$',
+        '^mpshare$', '^srcid$',
+      ],
+    },
   ],
 };

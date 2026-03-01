@@ -125,6 +125,16 @@
         domains: ['sohu.com'],
         params: [/^spm$/i, /^pvid$/i],
       },
+      {
+        name: 'WeChat MP',
+        domains: ['mp.weixin.qq.com'],
+        params: [
+          /^scene$/i, /^from_masonry$/i,
+          /^sharer_shareinfo$/i, /^sharer_shareinfo_first$/i,
+          /^poc_token$/i, /^chksm$/i, /^version$/i, /^ascene$/i,
+          /^mpshare$/i, /^srcid$/i,
+        ],
+      },
     ],
   };
 
