@@ -72,7 +72,7 @@ const URL_TRIMMER_RULES = {
       name: '1688',
       domains: ['1688.com'],
       params: [
-        '^spm$', '^pvid$', '^scm$', '^ali_refid$', '^ali_trackid$',
+        '^pvid$', '^scm$', '^ali_refid$', '^ali_trackid$',
         '^utparam$', '^ns$', '^abbucket$', '^acm$',
         '^offerId$', '^skuId$', '^hotSaleSkuId$', '^scene$',
         '^from$', '^trace_log$', '^tracelog$', '^uuid$',

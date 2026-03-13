@@ -77,7 +77,7 @@
         name: '1688',
         domains: ['1688.com'],
         params: [
-          /^spm$/i, /^pvid$/i, /^scm$/i, /^ali_refid$/i, /^ali_trackid$/i,
+          /^pvid$/i, /^scm$/i, /^ali_refid$/i, /^ali_trackid$/i,
           /^utparam$/i, /^ns$/i, /^abbucket$/i, /^acm$/i,
           /^offerId$/i, /^skuId$/i, /^hotSaleSkuId$/i, /^scene$/i,
           /^from$/i, /^trace_log$/i, /^tracelog$/i, /^uuid$/i,
