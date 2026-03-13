@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name         URL Trimmer
 // @namespace    https://github.com/ricky9w/url-trimmer
-// @version      0.2.0
+// @version      0.2.1
 // @description  Clean tracking parameters from the browser address bar
 // @author       ricky9w
 // @match        *://*/*
 // @run-at       document-start
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/ricky9w/url-trimmer/main/trimmer.user.js
+// @downloadURL  https://raw.githubusercontent.com/ricky9w/url-trimmer/main/trimmer.user.js
 // @require      https://cdn.jsdelivr.net/gh/ricky9w/url-trimmer@main/rules.js
 // ==/UserScript==
 
