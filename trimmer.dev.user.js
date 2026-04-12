@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         URL Trimmer (Dev)
 // @namespace    https://github.com/ricky9w/url-trimmer
-// @version      0.2.1-dev
+// @version      0.2.2-dev
 // @description  Clean tracking parameters from the browser address bar (dev build with logging)
 // @author       ricky9w
 // @match        *://*/*
@@ -54,6 +54,7 @@
           /^unique_k$/i,
           /^msource$/i, /^refer_from$/i, /^plat_id$/i, /^bbid$/i,
           /^ts$/i, /^visit_id$/i, /^broadcast_type$/i, /^is_room_feed$/i,
+          /^trackid$/i,
         ],
       },
       {

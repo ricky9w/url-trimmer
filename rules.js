@@ -47,6 +47,7 @@ const URL_TRIMMER_RULES = {
         '^unique_k$',
         '^msource$', '^refer_from$', '^plat_id$', '^bbid$',
         '^ts$', '^visit_id$', '^broadcast_type$', '^is_room_feed$',
+        '^trackid$',
       ],
     },
     {
